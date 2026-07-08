@@ -1,0 +1,7 @@
+# Minimal dependencies for deploying ONLY the Streamlit demo (e.g. Streamlit
+# Community Cloud). Uses the CPU build of TensorFlow to keep the image small.
+tensorflow-cpu>=2.16
+streamlit>=1.33
+pillow>=10.0
+numpy>=1.26
+matplotlib>=3.7
