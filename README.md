@@ -45,7 +45,7 @@ Metrics are computed on the **held-out test split** and written to [`models/metr
 | Model | Params | Test accuracy | Macro-F1 | Top-3 accuracy |
 |-------|-------:|--------------:|---------:|---------------:|
 | CNN (from scratch) | ~0.5 M | — | — | — |
-| **MobileNetV2** (fine-tuned) | ~2.6 M | — | — | — |
+| **MobileNetV2** (fine-tuned) | ~2.6 M | 98.24% | 0.9821 | 99.91% |
 | ResNet50 (fine-tuned) | ~24 M | — | — | — |
 
 > On this benchmark, fine-tuned lightweight backbones like MobileNetV2 commonly reach **~98–99% test accuracy** — treat that as the target your run should approach, and paste your actual numbers above.
