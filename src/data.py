@@ -90,7 +90,7 @@ def make_datasets(root: Path | None = None, test_fraction: float = 0.5):
     train_ds = _dataset_from_dir(train_dir, shuffle=True)
     class_names = train_ds.class_names
 
-    valid_ds_full = _dataset_from_dir(valid_dir, shuffle=False)
+    valid_ds_full = _dataset_from_dir(valid_dir, shuffle=True)
     # Sanity check: the val folder must expose the same classes in the same order.
     assert valid_ds_full.class_names == class_names, "train/valid class mismatch"
 
